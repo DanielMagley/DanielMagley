@@ -1,0 +1,16 @@
+:root {
+    --orange:#f98500;
+    --darkBlue: #2e4251;
+    --crimson: #a00625;
+    --silver: #8c898a;
+    --forrestGreen: #067c14;
+    --cyan: #1ad8c8;
+    --darkGrey: #3a3a3a;
+    --salmon: #efaeae;
+    --magenta: #b5225f;
+
+    --font1: font-family: 'Oswald', sans-serif;
+    --font2: font-family: 'Exo', sans-serif;
+    --font3: font-family: 'Abril Fatface', cursive;
+    --font4: font-family: 'Raleway', sans-serif;
+}

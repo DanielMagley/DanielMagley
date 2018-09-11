@@ -1,0 +1,13 @@
+input[type=text], input[type=email] {
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid black;
+}
+
+ .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black; 
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}

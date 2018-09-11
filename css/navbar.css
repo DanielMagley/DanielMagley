@@ -1,0 +1,36 @@
+.navbar {
+    z-index: 1;
+    margin-bottom: 0px;
+}
+
+.nav-link {
+    background: yellow;
+}
+
+.dropdown-toggle {
+   background-color: blue;
+}
+
+.navbar-nav {
+    border-color: orange;
+}
+
+.dropdown-menu {
+    background: green;
+    border: solid 2px violet;
+    border-radius: 50%;
+    color: aqua;
+}
+
+.dropdown-item {
+    background-color: aqua;
+}
+
+.mr-auto {
+    background: purple;
+}
+
+.navbar-expand-lg {
+    background: cornflowerblue;
+    border-color: 8rem solid black;
+}
