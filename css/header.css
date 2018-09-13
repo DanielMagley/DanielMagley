@@ -34,3 +34,10 @@
     align-items: center;
   }
   
+
+  @media (max-width: 600px) {
+    .logo { height: 350px;
+        width: 350px
+
+    }
+  }

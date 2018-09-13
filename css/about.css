@@ -17,9 +17,10 @@
       overflow: scroll;
       text-align: left;
       font-family: 'Lato', sans-serif;
-      padding: 100px 100px 10px 100px;
+      padding: 4em 4em 4em 4em;
   }
 
   .aboutRight h2 {
     text-align: left;  
   }
+
