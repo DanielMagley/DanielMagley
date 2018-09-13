@@ -25,3 +25,10 @@ input[type=text], input[type=email] {
     font-family: 'Lato', sans-serif;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .form-control {
+        align-content: center;
+        margin-left: 3em;
+    }
+}
