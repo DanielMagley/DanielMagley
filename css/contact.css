@@ -1,13 +1,27 @@
 input[type=text], input[type=email] {
    background: transparent;
    border: none;
+   font-family: 'Lato', sans-serif;
    border-bottom: 1px solid black;
 }
 
  .form-control {
     background: transparent;
+    font-family: 'Lato', sans-serif;
     border: none;
     border-bottom: 1px solid black; 
     border-right: 1px solid black;
     border-left: 1px solid black;
+}
+
+#about {
+    /* margin-top: 50px; */
+    background-color: #F4F4F9;
+
+}
+
+.btn {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }

@@ -7,15 +7,16 @@
         <title>Daniel Magley</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Exo|Raleway" rel="stylesheet">        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Exo|Lato|Raleway" rel="stylesheet">       
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
  <!--------NAVBAR------------------------------------------------>     
- <div class="nav justify-content-center fixed-top">
-      <a class="nav-link active" href="#">About</a>
-      <a class="nav-link" href="#">Work</a>
-      <a class="nav-link" href="#">Resume</a>
-      <a class="nav-link" href="#">Contact</a>
+ <div class="nav fixed-top">
+      <a class="nav-link active" href="#aboutMe">ABOUT</a>
+      <a class="nav-link" href="#projects">WORK</a>
+      <a class="nav-link" href="#resume">RESUME</a>
+      <a class="nav-link" href="#contact">CONTACT</a>
   </div>
 <!-----JUMBO---------------------------------------->
   <section>
@@ -23,11 +24,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="offset-md-2 col-8">
-          <h1 class="display-4 --font3">My Jumbo!</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <!-- <h1 class="display-4 --font3">My Jumbo!</h1> -->
+          <img src="assets/logo/dmlogo.png" class="logo" height="600" width="600">
+          <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
           <hr class="my-4">
           <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
         </div>
         </div>
         </div>
@@ -36,60 +38,98 @@
 
  <!-----ABOUT ME-------------------------------------->
  <section class="grid" data-viewport-height="100" style="min-height: 1239px;">
-  <div class="aboutLeft body" data-viewport-height="100">
-      </h2>About Me</h2>
+  <div class="aboutLeft body" data-viewport-height="100" id="aboutMe">
+      <h1>ABOUT ME</h1>
     </div>
  
   <div class="aboutRight body" data-viewport-height="100">
-      <h2>THis is where my info goes</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="assets/logo/prof.png" height="200" width="200">
+      <h2>I am a creative marketer and efficient problem solver.</h2>
+      <p>BA degree in Business Administration with an emphasis in 
+        Marketing from Park University. 
+        I have experience and am capeable of efficiently 
+        identifing a target market, 
+        and creatively developing an effective, yet fiscal, 
+        campaign in order to appeal to consumers. 
+        As well as to analyze the outcome of campaigns through 
+        quantitative research methods.
+        </p>
 
-      <h2>THis is where my info goes</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>Marketing & Brand Consultant</h2>
+      <p>As a Marketing/Branding Consultant I have Orchestrated 
+        all aspects of Marketing and Communications
+          for the start-up, North American Premier Basketball League. 
+          Created, packaged, and sold league-wide and team 
+          sponsorships both locally and nationally
+          Created Social Media content that generated 
+          35% increase in impressions through monitoring target audience behavior
+          and fan interests. Designed all graphics and promotional materials for website
+          and social media content </p>
 
-      <h2>THis is where my info goes</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>Software Developer</h2>
+      <p>Currently studying front-end development at 
+        Eleven Fifty Academy in Fishers, IN.
+        Here I am learning the following skillsets:
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>BootStrap</li>
+          <li>Angular.js</li>
+          <li>React.js</li>
+        </ul>
+      </p>
   </div>
   <!-----PROJECTS-------------------------------------->
-  <div class="projectsLeft body" data-viewport-height="100">
-    </h2>Apples</h2>
+  <div class="projectsLeft body" data-viewport-height="100" id="projects">
+    <h1>WORK</h1>
   </div>
   <div class="projectsRight body" data-viewport-height="100">
     <section class="grid2">
-      <div class="shopSite"></div>
-      <div class="songsterAPI"></div>
-      <div class="louie"></div>
-      <div class="section4"></div>
+      <div class="shopSite">
+        <h2>Shop Site</h2>
+        <li><a href="https://danielmagley.github.io/ShopWebsite/"><u>Go to project</u></a></li>
+        </div>
+      <div class="songsterAPI">
+        <h2>Songster API Guitar Tabs</h2>
+        <li><a href="https://songsterapi.firebaseapp.com/"><u>Go to projects</u></a></li>
+        </div>
+      <div class="louie">
+        <h2>Coded Creature: Louie</h2>
+        <li><a href="https://codepen.io/danielmagley/pen/yxOdwg"><u>Go to CodePen</u></a></li>
+      </div>
+      <div class="section4">
+      </div>
       <!-- <p> <img src="./assets/image/louie.png" alt="louis"></p> -->
-    </section>
-</div>
-
+    </section>  
+    </div>
+  </div>
+<!-----SKILLS RESUME--------------------------------------->
+<div class="skills-resume body" data-viewport-height="100" id="resume">
+    <h2><u>Experienced In</u></h2>
+  <div class="logos">
+    <img src="./assets/image/illustrator.png" alt="illustrator" height="64" width="64">
+    <img src="assets/image/photoshop.png" alt="photoshop" height="64" width="64">
+    <img src="assets/image/indesign.png" alt="indesign" height="64" width="64">
+    <img src="assets/image/javascript.png" alt="javascript" height="64" width="64">
+    <img src="assets/image/html-5.png" alt="html" height="64" width="64">
+    <img src="assets/image/css-3.png" alt="css" height="64" width="64">
+    <img src="assets/image/wordpress.png" alt="wordpress" height="64" width="64">
+    <img src="assets/image/adwords.png" alt="adwords" height="64" width="64">
+    <img src="assets/image/facebook.png" alt="facebook-marketing" height="64" width="64">
+    <img src="assets/image/instagram.png" alt="instagram-marketing" height="64" width="64">
+    <img src="assets/image/twitter.png" alt="twitter-marketing" height="64" width="64">
+    <h2>Download My Resume</h2>
+    <a href="assets/Magley, Daniel Resume.pdf" download="Magley, Daniel Resume">
+      <img src="assets/image/download.png" alt="download" height="32" width="32">
+    </a>
+    </div>
+    </div>
 </section>
-<!----JUMBO---
-        <section id="about"></section>
-
-        <section id="portfolio"></section>
-<br>
-<br>
-<br>
-        <!-Contact--->
           <section id="about">
                 <section id="contact">
+                  <br>
+                  <br>
                         <div class="container-fluid">
                           <h2 class="text-center text-uppercase">Contact Me</h2>
                           <div class="row">
@@ -152,10 +192,14 @@
                           </div>
                         </div>
                     </section>
-                   
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+
         </section>
         
-
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

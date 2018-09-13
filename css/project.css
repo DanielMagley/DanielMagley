@@ -1,0 +1,79 @@
+.projectsLeft {
+    background-color: #3F5360;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.projectsLeft h1 {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* .grid2 img {
+    position: relative;
+    margin-top: -20px;
+    left: 40px;
+    padding: 20px 20px 20px 20px;
+    height: 23em;
+    width: 14em;
+} */
+
+.projectsRight { 
+    background-color: #E1DDCF;
+    overflow: scroll;
+}
+
+.grid2 {
+  display: grid;
+  /* align-items: stretch; */
+  /* grid-template-columns: repeat(auto-fill, 186px); */
+  /* flex-direction: column; */
+  grid-template-columns: 100%;
+  grid-template-rows: 40vh 40vh 40vh 10vh;
+  grid-template-areas: 
+  "shopSite"
+  "songsterAPI"
+  "louie";
+}
+
+.shopSite {
+    background-image: url("https://images.unsplash.com/photo-1506667527953-22eca67dd919?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6326214b7ce18d74dde5e88db4a12dd5&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    -filter: blur(5px); 
+}
+
+.grid2 h2{
+    text-align: center;
+    /* background-color: black; */
+    color: black;
+    margin-top: 125px;
+    z-index: 1;
+}
+
+.grid2 li {
+    text-align: center;
+    list-style: none;
+    z-index: 1;
+    /* margin-left: 300px; */
+}
+
+.songsterAPI {
+    background-image: url("https://images.unsplash.com/photo-1526045566106-788438d25353?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cce1e6a4cd64446212144cdc022bc69c&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    text-align: center;
+}
+
+.songsterAPI h2 {
+    color: white;
+}
+
+.louie {
+    background-image: url("../assets/image/LouieBackground.jpg");
+    background-size: cover;
+    background-position-x: -40px;
+    text-align: center;
+}
+.section4 {
+    background-color: whitesmoke;
+}

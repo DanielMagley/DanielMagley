@@ -1,0 +1,25 @@
+
+  .aboutLeft { 
+    background-color: rgb(212, 214, 214);
+    color: black;
+    text-align: center;
+    padding-top: 50vh;
+  }
+
+  .aboutLeft h1 {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+  .aboutRight {
+      background-color: #F4F4F9;
+      overflow: scroll;
+      text-align: left;
+      font-family: 'Lato', sans-serif;
+      padding: 100px 100px 10px 100px;
+  }
+
+  .aboutRight h2 {
+    text-align: left;  
+  }
