@@ -31,6 +31,7 @@ html, body {
       }
       .projectsLeft {
           grid-column: span 2;
+          grid-row: span 5;
       }
       .projectsRight {
           grid-column: span 2;
