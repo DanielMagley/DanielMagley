@@ -25,16 +25,18 @@ html, body {
   @media (max-width: 600px) {
       .aboutLeft {
           grid-column: span 2;
+          
       }
       .aboutRight{
           grid-column: span 2;
       }
       .projectsLeft {
           grid-column: span 2;
-          grid-row: span 5;
+          min-height: 100vh;
       }
       .projectsRight {
           grid-column: span 2;
+          margin-top: 360px;
       }
       .shopSite {
           grid-column: span 2;
